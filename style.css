@@ -1,0 +1,131 @@
+
+    body {
+    background-color: rgb(34, 31, 31);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.brand img {
+    height: 65px;
+    width: 100px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.container {
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("containerback.jpg");
+    background-size: cover;
+}
+
+.bottom {
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 14px;
+    font-size: x-large;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myprogressbar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitems {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 60%;
+    color: black;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songitems img {
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 23px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.sonitemscontainer {
+    margin-top: 74px;
+}
+
+.songinfo {
+    position: absolute;
+    left: 10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+#shuffle{
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+    color: deepskyblue;
+}
+#repeat{
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+    color: deepskyblue;
+}
